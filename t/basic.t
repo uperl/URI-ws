@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 6;
+use Test::More tests => 8;
 use URI;
 
 do{
@@ -8,6 +8,7 @@ do{
   isa_ok $uri, 'URI::ws';
   is $uri->port, '80', 'default port = 80';
   is $uri->scheme, 'ws', 'scheme = ws';
+  is $uri->secure, 0, 'secure = 0';
 };
 
 do {
@@ -15,4 +16,5 @@ do {
   isa_ok $uri, 'URI::wss';
   is $uri->port, '443', 'default port = 443';
   is $uri->scheme, 'wss', 'scheme = wss';
+  is $uri->secure, 1, 'secure = 1';
 };
