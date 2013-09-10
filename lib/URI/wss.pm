@@ -2,7 +2,6 @@ package URI::wss;
 
 use strict;
 use warnings;
-use v5.10;
 
 # ABSTRACT: Secure WebSocket support for URI package
 # VERSION
