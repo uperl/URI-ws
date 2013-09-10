@@ -2,10 +2,6 @@
 
 WebSocket support for URI package
 
-# VERSION
-
-version 0.01
-
 # SYNOPSIS
 
     use URI;
