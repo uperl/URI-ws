@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - check for URI 1.53 in tests before testing "secure" method
+    which wasn't available prior to that.
 
 0.02      2013-09-10 15:15:50 -0400
   - support perl 5.8 (and maybe 5.6)
