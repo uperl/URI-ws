@@ -11,7 +11,7 @@ WebSocket support for URI package
 
 After this module is installed, the URI package provides the same set
 of methods for WebSocket URIs as it does for HTTP ones.  For secure
-WebSockets, see [URI::wss](http://search.cpan.org/perldoc?URI::wss).
+WebSockets, see [URI::wss](https://metacpan.org/pod/URI::wss).
 
 # METHODS
 
@@ -21,7 +21,7 @@ Returns the default port (80)
 
 # SEE ALSO
 
-[URI](http://search.cpan.org/perldoc?URI), [URI::wss](http://search.cpan.org/perldoc?URI::wss)
+[URI](https://metacpan.org/pod/URI), [URI::wss](https://metacpan.org/pod/URI::wss)
 
 # AUTHOR
 
