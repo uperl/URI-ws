@@ -15,7 +15,9 @@ WebSockets, see [URI::wss](https://metacpan.org/pod/URI::wss).
 
 # METHODS
 
-## URI::ws->default\_port
+## default\_port
+
+    my $port = URI::ws->default_port;
 
 Returns the default port (80)
 

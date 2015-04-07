@@ -23,7 +23,9 @@ use base qw( URI::ws );
 
 =head1 METHODS
 
-=head2 URI::wss->default_port
+=head2 default_port
+
+ my $port = URI::wss->default_port;
 
 Returns the default port (443)
 
