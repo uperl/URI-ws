@@ -1,3 +1,0 @@
-ExtUtils::MakeMaker
-Test::More
-URI

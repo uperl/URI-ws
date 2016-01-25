@@ -1,4 +1,4 @@
-# URI::ws [![Build Status](https://secure.travis-ci.org/plicease/URI-ws.png)](http://travis-ci.org/plicease/URI-ws)
+# URI::ws [![Build Status](https://secure.travis-ci.org/plicease/URI-ws.png)](http://travis-ci.org/plicease/URI-ws) [![Build status](https://ci.appveyor.com/api/projects/status/i164cxpbaoulmfdu/branch/master?svg=true)](https://ci.appveyor.com/project/plicease/URI-ws/branch/master)
 
 WebSocket support for URI package
 
@@ -27,7 +27,7 @@ Returns the default port (80)
 
 # AUTHOR
 
-Graham Ollis <plicease@cpan.org>
+Graham Ollis &lt;plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 

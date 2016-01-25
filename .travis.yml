@@ -1,6 +1,9 @@
 language: perl
+sudo: false
+
 install:
   - cpanm -n URI
+
 perl:
   - "5.8"
   - "5.10"
@@ -9,4 +12,7 @@ perl:
   - "5.16"
   - "5.18"
   - "5.20"
-script: HARNESS_IS_VERBOSE=1 prove -lv t xt
+  - "5.22"
+
+script:
+  - prove -lv t xt
