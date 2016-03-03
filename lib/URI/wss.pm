@@ -33,7 +33,9 @@ Returns the default port (443)
 
 sub default_port { 443 }
 
-=head2 $uri->secure
+=head2 secure
+
+ my $is_secure = $uri->secure
 
 Returns true.
 
