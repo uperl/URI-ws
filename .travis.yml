@@ -17,4 +17,4 @@ perl:
   - "5.26"
 
 script:
-  - prove -lv t xt
+  - prove -lv t
