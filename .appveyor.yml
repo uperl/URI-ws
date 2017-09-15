@@ -14,7 +14,7 @@ install:
 build: off
 
 test_script:
-  - prove -lv t	xt
+  - prove -lv t
 
 cache:
   - C:\Perl5
