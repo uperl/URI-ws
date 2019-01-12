@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use Test::More qw(no_plan);
+use Test::More tests=>10;
 
 use URI::ws;
 
@@ -27,4 +27,3 @@ use URI::ws;
   cmp_ok($u->path,'eq','/testing','unix - path check');
   cmp_ok($u->as_string,'eq',$url,'unix - input and output should match');
 }
-done_testing;
