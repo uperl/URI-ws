@@ -2,6 +2,7 @@ package URI::ws;
 
 use strict;
 use warnings;
+use URI::Escape qw(uri_unescape);
 
 # ABSTRACT: WebSocket support for URI package
 # VERSION
@@ -32,6 +33,25 @@ Returns the default port (80)
 =cut
 
 sub default_port { 80 }
+
+sub _port {
+  my $self=shift;
+  return $self->SUPER::_port(@_) if $#_ >-1;
+  if($$self=~ m,^ws+://unix%2F:([^/]+),is) {
+    return uri_unescape($1);
+  }
+  return $self->SUPER::_port(@_);
+}
+
+sub host {
+  my $self=shift;
+  return $self->SUPER::host(@_) if $#_ >-1;
+  if($$self=~ m,^ws+://unix%2F:.*$,is) {
+    return 'unix/';
+  }
+  return $self->SUPER::host(@_);
+}
+
 
 1;
 
