@@ -14,7 +14,7 @@ subtest 'unencrypted' => sub {
     skip 'requires URI 1.53 or better', 1 if $URI::VERSION < 1.53;
     is $uri->secure, 0, 'secure = 0';
   }
-  
+
 };
 
 subtest 'encrypted' => sub {
@@ -28,5 +28,5 @@ subtest 'encrypted' => sub {
     skip 'requires URI 1.53 or better', 1 if $URI::VERSION < 1.53;
     is $uri->secure, 1, 'secure = 1';
   }
-  
+
 };
