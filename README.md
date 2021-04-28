@@ -1,11 +1,13 @@
-# URI::ws [![Build Status](https://secure.travis-ci.org/plicease/URI-ws.png)](http://travis-ci.org/plicease/URI-ws) [![Build status](https://ci.appveyor.com/api/projects/status/i164cxpbaoulmfdu/branch/master?svg=true)](https://ci.appveyor.com/project/plicease/URI-ws/branch/master)
+# URI::ws ![linux](https://github.com/uperl/URI-ws/workflows/linux/badge.svg) ![macos](https://github.com/uperl/URI-ws/workflows/macos/badge.svg) ![windows](https://github.com/uperl/URI-ws/workflows/windows/badge.svg) ![cygwin](https://github.com/uperl/URI-ws/workflows/cygwin/badge.svg) ![msys2-mingw](https://github.com/uperl/URI-ws/workflows/msys2-mingw/badge.svg)
 
 WebSocket support for URI package
 
 # SYNOPSIS
 
-    use URI;
-    my $uri = URI->new('ws://localhost:3000/foo');
+```perl
+use URI;
+my $uri = URI->new('ws://localhost:3000/foo');
+```
 
 # DESCRIPTION
 
@@ -17,7 +19,9 @@ WebSockets, see [URI::wss](https://metacpan.org/pod/URI::wss).
 
 ## default\_port
 
-    my $port = URI::ws->default_port;
+```perl
+my $port = URI::ws->default_port;
+```
 
 Returns the default port (80)
 
