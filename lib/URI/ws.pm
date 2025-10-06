@@ -13,6 +13,8 @@ use warnings;
 
 =head1 DESCRIPTION
 
+*NOTE* this distribution has been replaced by modules in the main L<URI>.
+
 After this module is installed, the URI package provides the same set
 of methods for WebSocket URIs as it does for HTTP ones.  For secure
 WebSockets, see L<URI::wss>.

@@ -11,6 +11,8 @@ my $uri = URI->new('ws://localhost:3000/foo');
 
 # DESCRIPTION
 
+\*NOTE\* this distribution has been replaced by modules in the main [URI](https://metacpan.org/pod/URI).
+
 After this module is installed, the URI package provides the same set
 of methods for WebSocket URIs as it does for HTTP ones.  For secure
 WebSockets, see [URI::wss](https://metacpan.org/pod/URI::wss).
